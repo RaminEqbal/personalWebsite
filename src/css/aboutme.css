@@ -8,7 +8,10 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 35%, rgba(19
 
 #about-content {
     font-size: 7vh;
-    padding: 30vh;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    padding-left: 10vw;
+    padding-right:10vw;
     margin: auto;
 }
 

@@ -4,7 +4,10 @@
 }
 
 #contact-content {
-    padding: 30vh
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    padding-left: 10vw;
+    padding-right:10vw;
 }
 
 
