@@ -1,0 +1,17 @@
+#about-sec {
+    margin-top: var(--nav-height);
+    height: calc(100vh - var(--nav-height));
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 35%, rgba(19,19,19,1) 100%);
+    text-align: center;
+}
+
+#about-content {
+    font-size: 7vh;
+    padding: 30vh;
+    margin: auto;
+}
+
+#about-content p {
+    color:var(--header-bg)
+}

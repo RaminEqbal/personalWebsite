@@ -1,0 +1,31 @@
+#contact-sec {
+    height: 100vh;
+    background-color: var(--bg-main);
+}
+
+#contact-content {
+    padding: 30vh
+}
+
+
+#contact-content{
+    text-align: center;
+}
+
+#social-media {
+    padding-top: 60px;
+    font-size: 2.5vh;
+}
+
+#social-media span {
+    margin-right: 4vw;
+}
+
+
+#social-media a {
+    color: var(--header-bg);
+}
+
+#social-media a:visited {
+    color: var(--header-bg-darkened)
+}

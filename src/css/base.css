@@ -1,0 +1,49 @@
+:root{
+    --text-color: white;
+    --bg-main:rgb(39, 39, 39);
+    --header-bg:#d17000;
+    --header-bg-darkened:#a55800;
+    --link-teal: rgb(27, 101, 112);
+    --bg-second: rgb(25, 46, 49);
+    --nav-height: 10vhpx;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+    font-family: 'Lato', sans-serif;
+}
+
+
+body {
+    color: var(--text-color);
+    font-size: 3vh;
+}
+
+/* stylelint-disable */
+.divider {
+    background-color: var(--bg-main);
+    border: 1px solid var(--header-bg);
+    margin:0;
+
+}
+
+.nav-item {
+    margin-left: 3vw;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.nav-item:hover {
+    background-color: var(--bg-second);
+    border-radius: 10vw;
+}
+
+.navbar{
+    background-color: var(--header-bg);
+}
+
+
+/* stylelint-enable */

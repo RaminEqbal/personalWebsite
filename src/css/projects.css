@@ -1,0 +1,136 @@
+
+
+#work-sec {
+    background-color: var(--bg-second);
+    padding-bottom: 50px;
+    color: var(--text-color);
+}
+
+#work-sec h2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+
+
+
+
+#project-div {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(minmax(auto-fit,320px));
+    grid-gap: 4rem;
+
+}
+
+
+
+.project-view {
+    box-shadow:2px 2px black ;
+    border: solid 1px black;
+    background-color: rgb(34, 34, 34);
+    transition: 0.3s;
+}
+
+.project-view p{
+    display: block;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.project-view ul,li {
+    list-style: none;
+    color:var(--header-bg)
+}
+
+.project-view a {
+    color: var(--link-teal);
+}
+
+.project-view:hover {
+    background-color: rgb(21, 21, 21);
+    
+}
+
+
+
+.project-title {
+    margin-top: 50px;
+    font-size: 2.5vh;
+    box-sizing: border-box;
+
+}
+
+#project-div img {
+    width: 100%;
+    height:70%;
+    object-fit: cover;
+}
+
+
+
+.projectButton {
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    margin:0 auto;
+    display:block;
+    border:none;
+    border-radius: 10px;
+    background-color: var(--bg-main);
+    box-shadow:2px 2px black ;
+    transition: 0.3s;
+}
+
+
+.projectButton:hover {
+    background-color: var(--header-bg);
+}
+
+
+.projectButton * {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 900px)
+{
+
+    
+#project-div {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60vw,1fr));
+    grid-gap: 5vh;
+}
+
+#project-div img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.project-view {
+    height: 60vh;
+    margin-bottom: 5vh;
+}
+    
+.project-title {
+    font-size: 5vh;
+}
+
+
+
+}
