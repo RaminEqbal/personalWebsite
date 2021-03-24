@@ -38,12 +38,13 @@ class ProjectIcon extends React.Component {
 
         return (
         <div onClick={this.showDetailed} className="project-view">
-        <img className="project-image" src={this.props.imgsrc}></img><br />
-        <span className="project-title">{this.props.title}</span>
+        <div><img className="project-image" src={this.props.imgsrc} />
+        </div>
+        <div className="project-title">{this.props.title}</div>
         {this.state.detailed && this.props.description}
         <div style={{marginBottom:"20px"}}>
-        {this.state.detailed && <a target="_blank" style={{marginRight:"2vw"}} href={this.props.demo}>Demo</a>}
-        {this.state.detailed && <a target="_blank" href={this.props.source}>Source</a>}
+        {(this.state.detailed & this.props.demo != "") ? <a target="_blank" style={{marginRight:"2vw"}} href={this.props.demo}>Demo</a> : ""}
+        {(this.state.detailed & this.props.source != "") ? <a target="_blank" href={this.props.source}>Source</a>: ""}
         </div>
         </div>
 

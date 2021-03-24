@@ -2,11 +2,10 @@
 import '../bootstrap-4.3.1-dist/css/bootstrap.min.css'
 import '../css/aboutme.css'
 import '../css/base.css'
-import React, { Component } from 'react';
+import React from 'react';
 
 
 
-import { unstable_renderSubtreeIntoContainer } from 'react-dom';
 
 class AboutMe extends React.Component {
     constructor(props){

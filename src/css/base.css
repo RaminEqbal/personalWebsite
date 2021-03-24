@@ -46,4 +46,10 @@ body {
 }
 
 
+.navbar-custom {
+    width:100%;
+    position:fixed;
+}
+
+
 /* stylelint-enable */

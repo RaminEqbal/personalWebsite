@@ -25,7 +25,7 @@ class Contact extends React.Component {
                 <div id="social-media">
                     <span><a target="_blank" href="https://github.com/RaminEqbal">Github</a></span>
                     <span><a target="_blank" href="https://www.linkedin.com/in/ramin-eqbal-4a39a1140/">LinkedIn</a></span>
-                    <span>EMail</span>
+                    <span><a href="mailto:ramin.eqbal@gmail.com">EMail</a></span>
                 </div>
             </div>
         </div>
